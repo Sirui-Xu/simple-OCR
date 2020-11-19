@@ -2,7 +2,7 @@
 传统文字检测+识别，测试多个传统分割算法
 ## Experiments
 
-- lib：文件夹，内含有几个实现的重要的代码工具
+- lib: 内含有几个实现的重要的代码工具
   - connect.py：通过连通域算法对文字进行分割。
 	
 	`python3 connect.py ../images/{image_name}`
@@ -22,9 +22,9 @@
 	
 	`python3 pipeline.py ./images/{image_name}`
 - demo.py：完整的pipeline使用可视化交互，当鼠标移动到图像上可能出现的字母位置，会自动框出该字母，并且在图像上显示识别出的结果。
-- results：文件夹，内含利用上述代码生成的检测图片。
-- data：文件夹，内含生成的所有字母
-- images：文件夹，包括自己生成带一段文字的图片，也包括截图。
+- results：内含检测结果。
+- data：内含生成的所有字母
+- images：包括生成带一段文字的图片，也包括截图。
 
 ## Requirements
 

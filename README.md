@@ -12,19 +12,19 @@
   - mser.py：通过最大稳定极值区域算法对文字进行检测。
 	
 	`python3 mser.py ../images/{image_name}`
-- create_data.py：（在mac系统中使用，否则要修改字体设置）随机选择系统中的字体，随机化大小、颜色等设置，生成所有英文字母图像，作为识别的数据集。
+- create_data.py：（在MacOS中使用，否则要修改字体设置）随机选择系统中的字体，随机化大小、颜色等设置，生成所有英文字母图像，作为识别的数据集。
 	
 	`python3 create_data.py`
-- create_image.py：（在mac系统中使用，否则要修改字体设置）随机选择系统中的字体，随机化大小、颜色等设置，输入一段文字，生成带文字的图像。
+- create_image.py：（在MacOS中使用，否则要修改字体设置）随机选择系统中的字体，随机化大小、颜色等设置，输入一段文字，生成带文字的图像。
 	
 	`python3 create_image.py`
 - pipeline.py：完整的pipeline代码，运行代码可以框出所有的字母图像，并且在终端输出所有对应的识别出来的字母 
 	
 	`python3 pipeline.py ./images/{image_name}`
-- demo.py：完整的pipeline使用可视化交互，当鼠标移动到图像上可能出现的字母位置，会自动框出该字母，并且在图像上显示识别出的结果。
+- demo.py：当鼠标移动到图像上可能出现的字母位置，会自动框出该字母，并且在图像上显示识别出的结果。
 - results：内含检测结果。
 - data：内含生成的所有字母
-- images：包括生成带一段文字的图片，也包括截图。
+- images：包括生成图和真实图。
 
 ## Requirements
 
